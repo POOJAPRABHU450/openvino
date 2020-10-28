@@ -14,7 +14,7 @@ const std::vector<InferenceEngine::Precision> netPrecisions = {
         InferenceEngine::Precision::FP32
 };
 
-const std::vector<std::vector<size_t>> repeats = {
+const std::vector<std::vector<int64_t>> repeats = {
         {1, 2, 3},
         {2, 1, 1},
         {2, 3, 1},
